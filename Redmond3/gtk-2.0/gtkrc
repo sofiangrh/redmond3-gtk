@@ -326,7 +326,7 @@ style "scrollbar-vertical" {
 }
 
 style "scrolled-window" {
-	  GtkScrolledWindow::scrollbar-spacing = 0
+	  GtkScrolledWindow::scrollbar-spacing = 1
 	  engine "pixmap" {
 	  		image {
 				    function = BOX
